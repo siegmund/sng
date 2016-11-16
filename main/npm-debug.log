@@ -1,0 +1,265 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/vagrant/ws-sts/main/target/node/node',
+1 verbose cli   '/home/vagrant/ws-sts/main/target/node/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData babel-core
+20 silly mapToRegistry name babel-core
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'babel-core',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'babel-core',
+23 silly mapToRegistry   name: 'babel-core',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+25 silly fetchNamedPackageData babel-loader
+26 silly mapToRegistry name babel-loader
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'babel-loader',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'babel-loader',
+29 silly mapToRegistry   name: 'babel-loader',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+31 silly fetchNamedPackageData react
+32 silly mapToRegistry name react
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'react',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'react',
+35 silly mapToRegistry   name: 'react',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/react
+37 silly fetchNamedPackageData react-dom
+38 silly mapToRegistry name react-dom
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'react-dom',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'react-dom',
+41 silly mapToRegistry   name: 'react-dom',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+43 silly fetchNamedPackageData rest
+44 silly mapToRegistry name rest
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'rest',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'rest',
+47 silly mapToRegistry   name: 'rest',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/rest
+49 silly fetchNamedPackageData webpack
+50 silly mapToRegistry name webpack
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'webpack',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'webpack',
+53 silly mapToRegistry   name: 'webpack',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/webpack
+55 verbose request uri https://registry.npmjs.org/babel-core
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 3:20:41 PM
+58 verbose request id fa0613a88686deff
+59 http request GET https://registry.npmjs.org/babel-core
+60 verbose request uri https://registry.npmjs.org/babel-loader
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 3:20:41 PM
+63 http request GET https://registry.npmjs.org/babel-loader
+64 verbose request uri https://registry.npmjs.org/react
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 3:20:41 PM
+67 http request GET https://registry.npmjs.org/react
+68 verbose request uri https://registry.npmjs.org/react-dom
+69 verbose request no auth needed
+70 info attempt registry request try #1 at 3:20:41 PM
+71 http request GET https://registry.npmjs.org/react-dom
+72 verbose request uri https://registry.npmjs.org/rest
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 3:20:41 PM
+75 http request GET https://registry.npmjs.org/rest
+76 verbose request uri https://registry.npmjs.org/webpack
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 3:20:41 PM
+79 http request GET https://registry.npmjs.org/webpack
+80 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+81 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+82 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+83 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+84 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+85 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+86 info attempt registry request try #2 at 3:20:51 PM
+87 http request GET https://registry.npmjs.org/webpack
+88 info attempt registry request try #2 at 3:20:51 PM
+89 http request GET https://registry.npmjs.org/react
+90 info attempt registry request try #2 at 3:20:51 PM
+91 http request GET https://registry.npmjs.org/babel-loader
+92 info attempt registry request try #2 at 3:20:51 PM
+93 http request GET https://registry.npmjs.org/rest
+94 info attempt registry request try #2 at 3:20:51 PM
+95 http request GET https://registry.npmjs.org/react-dom
+96 info attempt registry request try #2 at 3:20:51 PM
+97 http request GET https://registry.npmjs.org/babel-core
+98 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+99 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+100 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+101 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+102 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+103 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+104 info attempt registry request try #3 at 3:21:51 PM
+105 http request GET https://registry.npmjs.org/rest
+106 info attempt registry request try #3 at 3:21:51 PM
+107 http request GET https://registry.npmjs.org/babel-core
+108 info attempt registry request try #3 at 3:21:52 PM
+109 http request GET https://registry.npmjs.org/react-dom
+110 silly fetchPackageMetaData Error: self signed certificate in certificate chain
+110 silly fetchPackageMetaData     at Error (native)
+110 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+110 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+110 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+110 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+110 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38)
+110 silly fetchPackageMetaData  error for react-dom@^15.3.2 { Error: self signed certificate in certificate chain
+110 silly fetchPackageMetaData     at Error (native)
+110 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+110 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+110 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+110 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+110 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38) code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+111 silly fetchPackageMetaData Error: self signed certificate in certificate chain
+111 silly fetchPackageMetaData     at Error (native)
+111 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+111 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+111 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+111 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+111 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38)
+111 silly fetchPackageMetaData  error for babel-core@^5.8.25 { Error: self signed certificate in certificate chain
+111 silly fetchPackageMetaData     at Error (native)
+111 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+111 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+111 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+111 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+111 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38) code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+112 silly fetchPackageMetaData Error: self signed certificate in certificate chain
+112 silly fetchPackageMetaData     at Error (native)
+112 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+112 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+112 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+112 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+112 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38)
+112 silly fetchPackageMetaData  error for rest@^1.3.1 { Error: self signed certificate in certificate chain
+112 silly fetchPackageMetaData     at Error (native)
+112 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+112 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+112 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+112 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+112 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38) code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+113 info attempt registry request try #3 at 3:21:54 PM
+114 http request GET https://registry.npmjs.org/babel-loader
+115 info attempt registry request try #3 at 3:21:54 PM
+116 http request GET https://registry.npmjs.org/react
+117 info attempt registry request try #3 at 3:21:54 PM
+118 http request GET https://registry.npmjs.org/webpack
+119 silly fetchPackageMetaData Error: self signed certificate in certificate chain
+119 silly fetchPackageMetaData     at Error (native)
+119 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+119 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+119 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+119 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+119 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38)
+119 silly fetchPackageMetaData  error for react@^15.3.2 { Error: self signed certificate in certificate chain
+119 silly fetchPackageMetaData     at Error (native)
+119 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+119 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+119 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+119 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+119 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38) code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+120 silly fetchPackageMetaData Error: self signed certificate in certificate chain
+120 silly fetchPackageMetaData     at Error (native)
+120 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+120 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+120 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+120 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+120 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38)
+120 silly fetchPackageMetaData  error for babel-loader@^5.3.2 { Error: self signed certificate in certificate chain
+120 silly fetchPackageMetaData     at Error (native)
+120 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+120 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+120 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+120 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+120 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38) code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+121 silly fetchPackageMetaData Error: self signed certificate in certificate chain
+121 silly fetchPackageMetaData     at Error (native)
+121 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+121 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+121 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+121 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+121 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38)
+121 silly fetchPackageMetaData  error for webpack@^1.12.2 { Error: self signed certificate in certificate chain
+121 silly fetchPackageMetaData     at Error (native)
+121 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+121 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+121 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+121 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+121 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38) code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+122 silly rollbackFailedOptional Starting
+123 silly rollbackFailedOptional Finishing
+124 silly runTopLevelLifecycles Finishing
+125 silly install printInstalled
+126 verbose stack Error: self signed certificate in certificate chain
+126 verbose stack     at Error (native)
+126 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1062:38)
+126 verbose stack     at emitNone (events.js:86:13)
+126 verbose stack     at TLSSocket.emit (events.js:185:7)
+126 verbose stack     at TLSSocket._finishInit (_tls_wrap.js:586:8)
+126 verbose stack     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:416:38)
+127 verbose cwd /home/vagrant/ws-sts/main
+128 error Linux 3.11.0-26-generic
+129 error argv "/home/vagrant/ws-sts/main/target/node/node" "/home/vagrant/ws-sts/main/target/node/node_modules/npm/bin/npm-cli.js" "install"
+130 error node v6.9.1
+131 error npm  v3.10.8
+132 error code SELF_SIGNED_CERT_IN_CHAIN
+133 error self signed certificate in certificate chain
+134 error If you need help, you may report this error at:
+134 error     <https://github.com/npm/npm/issues>
+135 verbose exit [ 1, true ]
